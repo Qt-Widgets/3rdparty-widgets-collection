@@ -38,8 +38,3 @@ Makefile*
 CMakeLists.txt.user*
 
 
-*.exe
-*.ini
-*.cfg
-*.zip
-*.db
