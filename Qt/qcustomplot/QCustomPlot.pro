@@ -1,6 +1,8 @@
-TEMPLATE = subdirs
+TEMPLATE    = subdirs
 
-SUBDIRS += \
-        sharedlib-compilation \
-        sharedlib-usage \
-        examples
+CONFIG      += ordered
+
+SUBDIRS     += \
+            sharedlib-compilation \
+            sharedlib-usage \
+            examples
